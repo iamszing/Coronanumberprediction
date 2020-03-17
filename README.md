@@ -5,4 +5,8 @@ You can get a prediction for the number of patients on any given day.
 
 ![Present Date](presentnumber.png)
 
+This is the graph for the current situation
+
 ![Image for day 50](day50.png)
+
+This is the graph for day 50. Similarly you can plot the graph for any given day
