@@ -3,4 +3,6 @@ This model predicts the number of corona patients that are could be tested posit
 
 You can get a prediction for the number of patients on any given day.
 
-![Image description](day50.png)
+![Present Date](presentnumber.png)
+
+![Image for day 50](day50.png)
