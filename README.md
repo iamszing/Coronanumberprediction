@@ -11,8 +11,4 @@ This is the graph for the current situation
 
 This is what it will look like on day 25
 
-
-
-![Image for day 50](day50.png)
-
-This is the graph on day. Similarly you can plot the graph for any given day
+In this way you can find it for any given day.
