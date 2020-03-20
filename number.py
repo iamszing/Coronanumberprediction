@@ -34,7 +34,7 @@ lin_reg.fit(X,Y)
 #Fitting the polynomial regression
 
 from sklearn.preprocessing import PolynomialFeatures
-poly_reg= PolynomialFeatures(degree= 3)
+poly_reg= PolynomialFeatures(degree= 5)
 X_poly = poly_reg.fit_transform(X)
 
 lin_reg2=LinearRegression()
@@ -42,7 +42,8 @@ lin_reg2.fit(X_poly,Y)
 
 
 
-#Visualising polynomial
+#Visualising polynomial'''
+'''
 X_grid=np.arange(min(X),max(X),0.1)
 X_grid=X_grid.reshape((len(X_grid),1))
 plt.scatter(X,Y, color='red')
@@ -52,13 +53,19 @@ plt.title('Corona Cases in India')
 plt.xlabel('Days')
 plt.ylabel('Number of patients')
 plt.show()
+'''
+a=lin_reg2.predict(poly_reg.fit_transform([[25]]))
+print(a)
 
-
-
-lin_reg2.predict(poly_reg.transform([[1000]]))
-
-
-
+X_grid=np.arange(min(X),max(X),0.1)
+X_grid=X_grid.reshape((len(X_grid),1))
+plt.scatter(X,Y, color='red')
+plt.scatter(25,lin_reg2.predict(poly_reg.fit_transform([[25]])),s=150)
+plt.plot(X_grid,lin_reg2.predict(poly_reg.fit_transform(X_grid)))
+plt.title('Corona Cases in India')
+plt.xlabel('Days')
+plt.ylabel('Number of patients')
+plt.show()
 
 
 
