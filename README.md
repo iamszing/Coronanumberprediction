@@ -13,6 +13,6 @@ This is what it will look like on day 25
 
 
 
-![Image for day 25](day 25.png)
+![Image for day 50](day50.png)
 
 This is the graph on day. Similarly you can plot the graph for any given day
