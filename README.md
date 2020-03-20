@@ -7,6 +7,9 @@ You can get a prediction for the number of patients on any given day.
 
 This is the graph for the current situation
 
+![Present Date](day25.png)
+
+This is what it will look like on day 25
 
 
 
